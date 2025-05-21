@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  // --- Estilos para HomeScreen ---
+
   container: {
     padding: 20,
     paddingTop: 50,
@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
 
-  // --- Estilos para CharacterList en cuadricula ---
+
   list: {
     width: '100%',
   },
   gridItem: {
-    backgroundColor: '#81d4fa', // azul claro
+    backgroundColor: '#81d4fa', 
     margin: 8,
     borderRadius: 16,
     justifyContent: 'center',
