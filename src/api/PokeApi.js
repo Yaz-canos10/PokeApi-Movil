@@ -6,7 +6,7 @@ export async function fetchCharacters(page = 1, limit = 20) {
     const url = `${BASE_URL}?limit=${limit}&offset=${offset}`;
     const response = await fetch(url);
     const data = await response.json();
-    return data; // data.results, data.count
+    return data; 
   } catch (error) {
     console.error('Error al obtener personajes:', error);
     throw error;
